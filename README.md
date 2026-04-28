@@ -14,3 +14,8 @@ Private Subnet → Hosts secure backend instances
 Internet Gateway (IGW) → Enables public internet access
 NAT Gateway → Allows private instances outbound internet access
 Route Tables → Control traffic flow between components
+
+⚙️ Implementation Steps
+
+🔹 Step 1: AWS Console Access
+Logged into AWS Management Console and navigated to the VPC dashboard to begin the setup
