@@ -18,4 +18,6 @@ Route Tables → Control traffic flow between components
 ⚙️ Implementation Steps
 
 🔹 Step 1: AWS Console Access
-Logged into AWS Management Console and navigated to the VPC dashboard to begin the setup
+Logged into AWS Management Console and navigated to the VPC dashboard to begin the setup.
+🔹 Step 2: Create VPC
+ Click either the “Create VPC” button or “Your VPC” on the left-side pane.Created a custom VPC with CIDR block 10.0.0.0/16, providing a private and isolated environment for resources.
