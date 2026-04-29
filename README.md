@@ -19,9 +19,10 @@ It includes subnet configuration, routing, internet connectivity, and DNS setup.
 ## 🔹 Step 1: Create VPC
 Created a Virtual Private Cloud (VPC) with a defined CIDR block to establish an isolated network.  
 This forms the foundation for deploying all cloud resources securely.
+.
 
 <p align="center">
-  <img src="images/step 1-login.png" width="700"/>
+  <img src="images/step1-login.png" width="700"/>
 </p>
 
 ---
