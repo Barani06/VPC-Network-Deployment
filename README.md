@@ -1,25 +1,136 @@
-🌐 VPC-Network-Deployment
+# 🌐VPC Network Deployment
 
-📌 Project Overview
+## 📌 Project Overview
+This project demonstrates the creation of a Virtual Private Cloud (VPC) using Amazon Web Services.  
+It includes subnet configuration, routing, internet connectivity, and DNS setup.
 
-Designed and implemented a secure and scalable Virtual Private Cloud (VPC) using Amazon Web Services. This project demonstrates how to build a production-style cloud network by separating public-facing services from private backend systems.
+---
 
-🏗️ Architecture Diagram
+## 🏗️ Architecture Diagram
 
-Architecture Explanation:
+<p align="center">
+  <img src="images/architecture-diagram.png" width="800"/>
+</p>
 
-VPC → Isolated cloud network
-Public Subnet → Hosts internet-facing EC2 instances
-Private Subnet → Hosts secure backend instances
-Internet Gateway (IGW) → Enables public internet access
-NAT Gateway → Allows private instances outbound internet access
-Route Tables → Control traffic flow between components
+---
 
-⚙️ Implementation Steps
+## ⚙️ Implementation Steps
 
-🔹 Step 1: AWS Console Access
-Logged into AWS Management Console and navigated to the VPC dashboard to begin the setup.
+## 🔹 Step 1: Create VPC
+Created a Virtual Private Cloud (VPC) with a defined CIDR block to establish an isolated network.  
+This forms the foundation for deploying all cloud resources securely.
 
-🔹 Step 2: Create VPC
- 
- Click either the “Create VPC” button or “Your VPC” on the left-side pane. Created a custom VPC with CIDR block 10.0.0.0/16, providing a private and isolated environment for resources.
+<p align="center">
+  <img src="images/step 2-vpc.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Step 2: Configure VPC Setup
+Configured VPC settings and completed the initialization process.  
+Ensured proper IP range allocation and successful VPC creation.
+
+<p align="center">
+  <img src="images/step 3-vpc set up.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/step 3.1-vpc created.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Step 3: Create Subnets
+Created subnets within the VPC to divide the network into smaller sections.  
+This improves organization and allows better control over resources.
+
+<p align="center">
+  <img src="images/step 4-subnet set up.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/step 4.1-subnet created.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Step 4: Configure Route Table
+Created and configured route tables to manage network traffic flow.  
+Defined rules for internal and external communication.
+
+<p align="center">
+  <img src="images/step 5-route table set up.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/step 5.1-route table created.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Step 5: Create & Attach Internet Gateway
+Created an Internet Gateway and attached it to the VPC.  
+This enables communication between the VPC and the internet.
+
+<p align="center">
+  <img src="images/step 6-create igw.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/step 6.1-Attach igw.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Step 6: Configure Public IP
+Enabled automatic public IP assignment for subnet resources.  
+This allows instances to be accessed from the internet.
+
+<p align="center">
+  <img src="images/step 8-public IP confg for subnets.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/step 8.1-public IP created.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Step 7: Enable DNS Settings
+Enabled DNS resolution and hostname support in the VPC.  
+This allows communication using domain names instead of IP addresses.
+
+<p align="center">
+  <img src="images/step 9-Enable DNS for Vpc.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/step 9.1-Edit vpc.png" width="700"/>
+</p>
+
+---
+
+## ✅ Final Output
+- Successfully created a VPC  
+- Configured subnets and routing  
+- Enabled internet access using Internet Gateway  
+- Verified DNS and network settings  
+
+---
+
+## 🛠️ Tech Stack
+- Amazon Web Services (AWS)  
+- VPC, Subnets, Route Tables  
+- Internet Gateway  
+
+---
+
+## 📊 Skills Demonstrated
+- Cloud Networking  
+- AWS Infrastructure Setup  
+- Network Configuration & Security  
+
+---
+
+## 📌 Resume-Ready Description
+Built a secure AWS VPC with subnets, route tables, and Internet Gateway, enabling controlled network communication and internet access.
