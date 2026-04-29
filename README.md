@@ -164,15 +164,53 @@ This enables internet access for private subnet resources.
   <img src="images/step11.1-add-NAT.png" width="700"/>
 </p>
 
+---
 
+## 🔹 Step 12: Launch EC2 Instance  
+Launched an EC2 instance within the configured subnet.  
+This instance will be used to test network connectivity.
+Connected to the EC2 instance using AWS connection methods.  
+Verified that the instance is accessible and running.
 
-## ✅ Final Output
-- Successfully created a VPC  
-- Configured subnets and routing  
-- Enabled internet access using Internet Gateway  
-- Verified DNS and network settings  
+<p align="center">
+  <img src="images/step12-launch-EC2.jpeg" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/step12.1-connect-EC2.jpeg" width="700"/>
+</p>
 
 ---
+
+## 🔹 Step 13: SSH Access  
+Accessed the EC2 instance via SSH for remote management.  
+This allows executing commands securely on the server.
+
+<p align="center">
+  <img src="images/step13-SSH.jpeg" width="700"/>
+</p>
+
+---
+
+## 🔹 Step 14: EC2 Terminal Operations  
+Executed commands inside the EC2 instance terminal.  
+Verified system functionality and environment setup.
+
+<p align="center">
+  <img src="images/step14-EC2-terminal.jpeg" width="700"/>
+</p>
+
+---
+
+## 🔹 Step 15: Final Output  
+Displayed the final output from the EC2 instance.  
+This confirms successful setup of networking and instance connectivity.
+
+<p align="center">
+  <img src="images/step15-output.jpeg" width="700"/>
+</p>
+
+
 
 ## 🛠️ Tech Stack
 - Amazon Web Services (AWS)  
