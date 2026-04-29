@@ -9,7 +9,8 @@ It includes subnet configuration, routing, internet connectivity, and DNS setup.
 ## 🏗️ Architecture Diagram
 
 <p align="center">
-  <img src="images/vpc-architecture.png" width="800"/>
+  <img src="images/vpc_architecture.png" width="800"/><br>
+  <em>AWS VPC Architecture with Public & Private Subnets, IGW, and NAT Gateway</em>
 </p>
 
 ---
