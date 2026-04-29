@@ -9,7 +9,7 @@ It includes subnet configuration, routing, internet connectivity, and DNS setup.
 ## 🏗️ Architecture Diagram
 
 <p align="center">
-  <img src="images/architecture-diagram.png" width="800"/>
+  <img src="images/vpc-architecture.png" width="800"/>
 </p>
 
 ---
@@ -21,7 +21,7 @@ Created a Virtual Private Cloud (VPC) with a defined CIDR block to establish an 
 This forms the foundation for deploying all cloud resources securely.
 
 <p align="center">
-  <img src="images/step 2-vpc.png" width="700"/>
+  <img src="images/step 1-login.png" width="700"/>
 </p>
 
 ---
@@ -132,5 +132,4 @@ This allows communication using domain names instead of IP addresses.
 
 ---
 
-## 📌 Resume-Ready Description
-Built a secure AWS VPC with subnets, route tables, and Internet Gateway, enabling controlled network communication and internet access.
+
