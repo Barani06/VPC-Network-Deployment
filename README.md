@@ -216,7 +216,7 @@ This confirms successful setup of networking and instance connectivity.
 ## 🛠️ Tech Stack
 - Amazon Web Services (AWS)  
 - VPC, Subnets, Route Tables  
-- Internet Gateway  
+- Internet Gateway, NAT Gateway  
 
 ---
 
